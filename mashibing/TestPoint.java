@@ -2,7 +2,7 @@
 public class TestPoint {
 	int x;
 	int y;
-	int z;
+	int z;//定义成double比较合适
 	
 	TestPoint(int _x,int _y,int _z) {
 		x = _x;
@@ -25,7 +25,7 @@ public class TestPoint {
 		z = zSet;
 	}
 	
-	public int distanceTo0()
+	public int distanceTo0()  //int distance(TestPoint p)
 	{
 		int distance;
 		distance = x * x + y * y + z * z;
